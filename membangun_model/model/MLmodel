@@ -1,0 +1,22 @@
+artifact_path: file:///home/umaygans/tugas_msml/membangun_model/mlruns/980084046776116951/models/m-631415f9d48445628449399e81db4b09/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.7
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.1
+mlflow_version: 3.3.2
+model_id: m-631415f9d48445628449399e81db4b09
+model_size_bytes: 1432
+model_uuid: m-631415f9d48445628449399e81db4b09
+prompts: null
+run_id: be80a68b57ab48cf9f865eb8e6a91a94
+utc_time_created: '2025-10-10 15:26:51.161107'
